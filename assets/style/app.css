@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/assets/image/landscape_00_vecteezy_ai_graphic.jpg);
+  height: 100% cover;
+}
+html:is(html), body:is(html) {
+  font-size: 62.5%;
+}
+html:is(body), body:is(body) {
+  position: relative;
+  font-size: 1.6rem;
+}
+
+/*# sourceMappingURL=app.css.map */
