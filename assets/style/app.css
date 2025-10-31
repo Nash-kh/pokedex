@@ -94,8 +94,10 @@ header img {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  background-image: url("//assets/image/landscape_00_vecteezy_ai_graphic.jpg");
+  height: 90rem;
+  width: auto;
+  background-image: url("/assets/image/landscape_00_vecteezy_ai_graphic.jpg");
+  background-size: cover;
 }
 
 footer {

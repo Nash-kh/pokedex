@@ -3,24 +3,16 @@
 
 
 #call_to_action {
-// main img {
-//     background-image: url(../../../../image/landscape_00_vecteezy_ai_graphic.jpg);
-//     height: 100%;
-//     width: 100%;
-//     position: static;
-//     z-index: -1;
-// }
 
-    // main {
-    //     height: 100%;
-    // }
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    height: 100%;
 
-    background-image: url('//assets/image/landscape_00_vecteezy_ai_graphic.jpg');
+    height: 90rem;
+    width: auto;
+
+    background-image: url("/assets/image/landscape_00_vecteezy_ai_graphic.jpg");
+    background-size: cover;
     
 
 }
