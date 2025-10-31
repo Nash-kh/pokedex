@@ -2,6 +2,11 @@
 @use "../global/variables" as *;
 @use "../global/mixins" as *;
 
+header {
+    position: relative;
+    z-index: 1;
+}
+
 header p {
     font-size: 2rem;
 }
@@ -38,17 +43,8 @@ header nav a {
     text-decoration: none;
 }
 
-.nav1 {
-    color: $light;
-    font-size: 2rem;
-}
-
-.nav2 {
-    color: $primary;
-    font-size: 2rem;
-}
-
 .btn_nav1, .btn_nav2 {
+
     border: 0.1rem solid $primary;
     border-radius: 1rem;
     padding: 0;
@@ -57,31 +53,25 @@ header nav a {
 }
 
 .btn_nav1 {
+    color: $light;
+    font-size: 2rem;
     background-color: $primary;
 }
 
 .btn_nav2 {
+    color: $primary;
+    font-size: 2rem;
     background-color: $light;
 }
 
 header img {
     height: 5rem;
-    margin: 1.5rem;
-}
-
-.nav1:hover {
-    background-color: $light;
-    color: $primary;
+    margin: 1rem;
 }
 
 .btn_nav1:hover {
     background-color: $light;
     color: $primary;
-}
-
-.nav2:hover {
-    background-color: $primary;
-    color: $light;
 }
 
 .btn_nav2:hover {

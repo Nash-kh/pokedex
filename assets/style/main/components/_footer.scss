@@ -2,23 +2,26 @@
 @use "../global/mixins" as *;
 
 
-footer section{
-    background-color: $dark;
-    height: 12rem;
-    width: 100%;
+footer {
+    background-color: black;
+    height: auto;
+    width: auto;
 }
 
 footer p {
+    font-weight: bolder;
     color: $light;
-    // padding: 5rem;
+    padding: 6rem;
     margin: 0;
+    font-size: 3rem;
 }
 
-footer article {
+footer section {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
+    align-content: center;
+
     
 }
