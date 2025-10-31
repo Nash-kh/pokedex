@@ -1,0 +1,24 @@
+@use "../global/variables" as *;
+@use "../global/mixins" as *;
+
+
+footer section{
+    background-color: $dark;
+    height: 12rem;
+    width: 100%;
+}
+
+footer p {
+    color: $light;
+    // padding: 5rem;
+    margin: 0;
+}
+
+footer article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}

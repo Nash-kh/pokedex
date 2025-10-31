@@ -1,38 +1,37 @@
 // app theme colors
- $colors_theme: (
 
-primary: #AB3CFF,
-secondary: #FD7FFF,
-light: #fefefe,
-dark: #242424,
-success: #5d9d3c,
-error: #d43a30,
-warning: #f08833,
-info: #4c79bc
-);
+
+$primary: #AB3CFF;
+$secondary: #FD7FFF;
+$light: #fefefe;
+$dark: #242424;
+$success: #5d9d3c;
+$error: #d43a30;
+$warning: #f08833;
+$info: #4c79bc;
+
 
 // pokemon type colors
-$colors_type: (
 
-normal: #a1a1a1,
-fire: #d43a30,
-fighting: #f08833,
-water: #4c79bc,
-flying: #8fb8e4,
-grass: #5d9d3c,
-poison: #6d4b97,
-electric: #f2c341,
-ground: #895229,
-psychic: #dc4d79,
-rock: #ada984,
-ice: #78ccf0,
-bug: #95a135,
-dragon: #4c60a9,
-ghost: #6b426e,
-dark: #4e403f,
-steel: #74a2b9,
-fairy: #ba7fb5 
-);
+
+$normal: #a1a1a1;
+$fire: #d43a30;
+$fighting: #f08833;
+$water: #4c79bc;
+$flying: #8fb8e4;
+$grass: #5d9d3c;
+$poison: #6d4b97;
+$electric: #f2c341;
+$ground: #895229;
+$psychic: #dc4d79;
+$rock: #ada984;
+$ice: #78ccf0;
+$bug: #95a135;
+$dragon: #4c60a9;
+$ghost: #6b426e;
+$dark: #4e403f;
+$steel: #74a2b9;
+$fairy: #ba7fb5;
 
 
 // Boucle colors

@@ -5,8 +5,6 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-image: url(/assets/image/landscape_00_vecteezy_ai_graphic.jpg);
-  height: 100% cover;
 }
 html:is(html), body:is(html) {
   font-size: 62.5%;
@@ -14,6 +12,117 @@ html:is(html), body:is(html) {
 html:is(body), body:is(body) {
   position: relative;
   font-size: 1.6rem;
+}
+
+header p {
+  font-size: 2rem;
+}
+
+header article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header section {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0.1rem 0.1rem 0.5rem #4e403f;
+  height: 8rem;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.poke_lien {
+  text-decoration: none;
+  color: #4e403f;
+  font-size: 2rem;
+}
+
+header nav a {
+  text-decoration: none;
+}
+
+.nav1 {
+  color: #fefefe;
+  font-size: 2rem;
+}
+
+.nav2 {
+  color: #AB3CFF;
+  font-size: 2rem;
+}
+
+.btn_nav1, .btn_nav2 {
+  border: 0.1rem solid #AB3CFF;
+  border-radius: 1rem;
+  padding: 0;
+  height: 3.3rem;
+  width: 10rem;
+}
+
+.btn_nav1 {
+  background-color: #AB3CFF;
+}
+
+.btn_nav2 {
+  background-color: #fefefe;
+}
+
+header img {
+  height: 5rem;
+  margin: 1.5rem;
+}
+
+.nav1:hover {
+  background-color: #fefefe;
+  color: #AB3CFF;
+}
+
+.btn_nav1:hover {
+  background-color: #fefefe;
+  color: #AB3CFF;
+}
+
+.nav2:hover {
+  background-color: #AB3CFF;
+  color: #fefefe;
+}
+
+.btn_nav2:hover {
+  background-color: #AB3CFF;
+  color: #fefefe;
+}
+
+main img {
+  background-image: url(../../../../image/landscape_00_vecteezy_ai_graphic.jpg);
+  height: 100%;
+  width: 100%;
+}
+
+footer section {
+  background-color: #4e403f;
+  height: 12rem;
+  width: 100%;
+}
+
+footer p {
+  color: #fefefe;
+  margin: 0;
+}
+
+footer article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=app.css.map */

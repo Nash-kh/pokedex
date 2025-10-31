@@ -1,0 +1,8 @@
+@use "../../global/variables" as *;
+@use "../../global/mixins" as *;
+
+main img {
+    background-image: url(../../../../image/landscape_00_vecteezy_ai_graphic.jpg);
+    height: 100%;
+    width: 100%;
+}

@@ -2,3 +2,6 @@
 @use "main/global/normalize" as *;
 @use "main/global/mixins" as *;
 @use "main/global/global" as *;
+@use "main/components/header" as *;
+@use "main/components/page/page1.scss" as *;
+@use "main/components/footer" as *;
